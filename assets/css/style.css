@@ -6,7 +6,7 @@
     color: rgb(195, 195, 218);
 }
 body{
-    background-image: url(./assets/img/fondo4.jpg);
+    background-image: url(../img/fondo4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
