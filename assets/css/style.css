@@ -125,7 +125,8 @@ footer h3{
     transform: translateY(1px);
 }
 .marcas-contacto{
-    width: 400px;
+    width: 350px;
+    height: auto;
 }
 
 /* Página Redes */
