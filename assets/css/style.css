@@ -203,3 +203,15 @@ h1{
 .caja6{
     grid-area: portafolio6;
 }
+
+/* Mediaquery */
+@media (max-width:991px) {
+.grilla{
+    grid-template-columns: repeat(2,200px);
+    grid-template-areas: 
+    "portafolio1 portafolio2"
+    "portafolio3 portafolio4"
+    "portafolio5 portafolio6"
+    ;
+    }
+}
