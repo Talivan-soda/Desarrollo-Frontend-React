@@ -1,0 +1,32 @@
+/* Main */
+main{
+    .container{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    div {
+        h1{ 
+            color: rgb(195, 195, 218);
+            text-decoration: underline;
+            }
+        h3{ 
+            color: rgb(195, 195, 218);
+            text-decoration: underline;
+            }
+        } 
+    .logo-main{ 
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    .ul-main{
+        font-size: 1rem;
+        list-style: none;
+    }
+    .marcas{
+        display: block;
+        margin: auto;
+    }
+}

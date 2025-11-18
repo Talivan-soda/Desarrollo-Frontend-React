@@ -1,0 +1,68 @@
+/* Página productos */
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+.grilla{
+    display: grid;
+    margin: 5px;
+    grid-template-columns: repeat(3,200px);
+    grid-template-areas: 
+    "portafolio1 portafolio1 portafolio3"
+    "portafolio1 portafolio1 portafolio2"
+    "portafolio4 portafolio5 portafolio6"
+    ;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    gap: 10px 10px;
+    div{
+    position: relative;
+    &:after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.555);
+        opacity: 0;
+    }
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+        &:hover{
+            cursor: pointer;
+            &:after{
+                opacity: 1;
+            }
+        }
+    }
+    .caja1{
+    grid-area: portafolio1;
+    }
+    .caja2{
+        grid-area: portafolio2;
+    }
+    .caja3{
+        grid-area: portafolio3;
+    }
+    .caja4{
+        grid-area: portafolio4;
+    }
+    .caja5{
+        grid-area: portafolio5;
+    }
+    .caja6{
+        grid-area: portafolio6;
+    }
+}
+
+
+
+
+
+

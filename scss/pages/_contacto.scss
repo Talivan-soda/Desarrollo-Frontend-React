@@ -1,0 +1,49 @@
+/* Página Contacto */
+.main-contacto{
+    text-align: center;
+    .logo-contacto{
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+    .formulario-consulta {
+        padding: 50px;
+    }
+    .formulario-boton{
+        margin: auto;
+        display: flex;
+        color: white;
+        background-color: rgb(67, 92, 235);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 30px;
+        cursor: pointer;
+    &:hover{
+        background-color: rgb(124, 137, 252);
+        }
+    &:active{
+        transform: translateY(1px);
+        background-color: rgb(177, 176, 184);
+        }
+    }
+    .marcas-contacto{
+        height: auto;
+        width: 350px;
+    }
+}
+
+
+
+
+

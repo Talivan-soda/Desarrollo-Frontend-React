@@ -1,0 +1,21 @@
+/* Página Redes */
+.main-redes{
+        text-align: center;
+        h1{
+            text-decoration: underline;
+        }
+    }
+    .div-redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        a{
+            img {
+                width: 100%;
+                max-width: 50px;
+            }
+        }
+    }
+

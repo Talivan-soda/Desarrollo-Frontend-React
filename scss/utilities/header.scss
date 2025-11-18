@@ -1,0 +1,29 @@
+/* Barra de navegación */
+header{
+    .navbar{
+        display: flex;
+        flex-grow: inherit;
+        background-color: rgb(100, 100, 255);
+        :hover{
+        color: whitesmoke;
+        }
+    }
+    .navbar-collapse {
+        flex-grow: 0;
+        flex-basis: 100%;
+        align-items: center;
+    }
+    .logo-nav{
+        padding-left: 15px;
+        height: 50px;
+        width: auto;
+        border-radius: 50%;
+    }
+    .dropdown-menu{
+        background-color: rgb(100, 100, 255);
+        &:hover{
+            background-color: rgb(100, 100, 255);
+            color: aliceblue;
+        }
+    }
+}
