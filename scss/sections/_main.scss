@@ -6,10 +6,10 @@ main{
     @extend %block-center;
     div {
         h1{
-        @include mixin.encabezado(whitesmoke,underline);
+            @include mixin.encabezado(whitesmoke,underline);
         }
         h3{
-        @include mixin.encabezado(whitesmoke,underline)
+            @include mixin.encabezado(whitesmoke,underline)
         }
     .logo-main{ 
         height: variable.$relleno;
@@ -26,4 +26,14 @@ main{
         margin: auto;
     }
 }
+    h2{
+        @include mixin.encabezado(whitesmoke,underline);
+    }
+    li{
+        font-size: 1rem;
+        list-style: none;
+        strong{
+            text-decoration: underline;
+        }
+    }
 }

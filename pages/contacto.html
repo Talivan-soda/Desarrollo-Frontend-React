@@ -15,75 +15,101 @@
 
 <body>
     <header id="arriba">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="../assets/img/logo.jpg" alt="Logo" class="logo-nav">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Servicios
-                        </a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/logo.jpg" alt="Logo" class="logo-nav">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="../pages/arreglos.html">Arreglos</a></li>
                                 <li><a class="dropdown-item" href="../pages/productos.html">Productos en venta</a></li>
                             </ul>
-                    </li>
+                        </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/redes.html">Redes Sociales</a>
-                    </li>
-                </ul>
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/redes.html">Redes Sociales</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
-<!-- Contenido principal -->
+    <!-- Contenido principal -->
     <main class="main-contacto">
         <h1>Contacto</h1>
         <img src="../assets/img/logo.jpg" alt="" class="logo-contacto">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos dicta quibusdam iure, commodi aliquam, ratione rerum temporibus debitis assumenda impedit nulla, alias similique. Cumque velit optio, aliquid qui minus reprehenderit.</p>
+        <section>
+            <h2>¿Por Qué Elegirnos?</h2>
+            <ul>
+                <li><strong>Profesionales Certificados:</strong> Nuestro personal cuenta con la formación y experiencia
+                    necesaria para diagnosticar y reparar correctamente sus equipos.</li>
+                <li><strong>Garantía de Servicio:</strong> Ofrecemos garantía en todas nuestras reparaciones y repuestos
+                    instalados.</li>
+                <li><strong>Presupuesto Transparente:</strong> Realizamos diagnósticos precisos y ofrecemos presupuestos
+                    claros antes de cualquier intervención.</li>
+                <li><strong>Rapidez y Eficacia:</strong> Nos esforzamos por ofrecer reparaciones rápidas, incluso
+                    servicio express en algunos casos.</li>
+                <li><strong>Atención Personalizada:</strong> Brindamos asesoramiento y soporte adaptado a sus
+                    necesidades específicas.</li>
+            </ul>
+            <section id="testimonios">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p>"Excelente servicio, rápido y honesto. Arreglaron mi Smart TV en menos de 24 horas. ¡Altamente recomendados!"</p>
+                <footer>— Juan Pérez</footer>
+                <p>"Llevé mi laptop que no encendía y me dieron un presupuesto muy ajustado. Ahora funciona como nueva."</p>
+                <footer>— María Rodríguez</footer>
+            </section>
+        </section>
         <form action="/consulta" method="post" class="form-contacto">
-        <div class="formulario">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
-        </div>
-        <div class="formulario">    
-        <label for="direccion">Dirección:</label>
-        <input type="text" name="direccion" id="direccion">
-        </div>
-        <div class="formulario">    
-        <label for="celular">Celular:</label>
-        <input type="text" name="celular" id="celular">
-        </div> 
-        <div class="formulario">           
-        <label for="consulta">Tu consulta:</label>
-        <textarea name="consulta" id="consulta" class="formulario-consulta"></textarea>
-        </div> 
-        
-        <input type="button" value="Enviar" class="formulario-boton">
+            <div class="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div class="formulario">
+                <label for="direccion">Dirección:</label>
+                <input type="text" name="direccion" id="direccion">
+            </div>
+            <div class="formulario">
+                <label for="celular">Celular:</label>
+                <input type="text" name="celular" id="celular">
+            </div>
+            <div class="formulario">
+                <label for="consulta">Tu consulta:</label>
+                <textarea name="consulta" id="consulta" class="formulario-consulta"></textarea>
+            </div>
+
+            <input type="button" value="Enviar" class="formulario-boton">
         </form>
         <img src="../assets/img/marcas.jpg" alt="Imagen marcas" class="marcas-contacto">
     </main>
-        <!-- Pie de página-->
+    <!-- Pie de página-->
     <footer>
-        <h2>Sobre nosotros:</h2>
-        <p>Contamos en el área de servicio técnico con más de 15 años de experiencia. Recomendados en la zona por hacer
-            presupuestos en el día y soluciones rápidas. ¡Súmate a nuestra clientela! <i
-                class="fa-regular fa-handshake"></i></p>
+        <h2>Acerca de Nosotros</h2>
+        <p>
+            Somos un equipo de especialistas capacitados con años de experiencia en el sector de la
+            electrónica y la informática. Nuestro compromiso es ofrecer soluciones de reparación eficientes,
+            confiables y con garantía, devolviendo la vida útil a sus aparatos favoritos. Entendemos la importancia
+            de estos dispositivos en su día a día y trabajamos con rapidez para minimizar las molestias.<i
+                class="fa-regular fa-handshake"></i>
+        </p>
+
         <h3>Ubicación</h3>
         <p>9 de Julio 495
             San Martín - Mendoza</p>
@@ -99,6 +125,7 @@
         <a href="#arriba">
             <i class="fa-regular fa-house"></i>Volver arriba
         </a>
+        <p>&copy; 2025 ElectronSM - Todos los derechos reservados.</p>
     </footer>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

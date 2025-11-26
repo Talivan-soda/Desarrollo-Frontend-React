@@ -1,0 +1,18 @@
+.main-arreglos{
+    section{
+        div{
+            div{
+                div{
+                    img{
+                    border: 2px solid black;
+                    border-radius: 20px;
+                    transition: transform 1.5s;
+                    &:hover{
+                        transform: scale(1.07);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

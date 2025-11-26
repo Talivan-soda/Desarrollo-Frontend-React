@@ -16,13 +16,13 @@ body {
 
 /* Barra de navegación */
 header .navbar {
-  background-image: linear-gradient(45deg, blue 50%, rgb(52, 95, 236) 65%);
+  background: linear-gradient(90deg, rgb(75, 96, 153) 0%, rgb(87, 199, 133) 50%, rgb(75, 96, 153) 100%);
   display: flex;
   flex-grow: inherit;
   background-color: rgb(100, 100, 255);
 }
 header .navbar :hover {
-  color: whitesmoke;
+  color: rgb(41, 32, 32);
 }
 header .navbar-collapse {
   flex-grow: 0;
@@ -36,11 +36,11 @@ header .logo-nav {
   border-radius: 50%;
 }
 header .dropdown-menu {
-  background-color: rgb(100, 100, 255);
+  background: linear-gradient(90deg, rgb(75, 96, 153) 0%, rgb(87, 199, 133) 50%, rgb(75, 96, 153) 100%);
 }
 header .dropdown-menu:hover {
-  background-color: rgb(100, 100, 255);
-  color: aliceblue;
+  background-color: rgb(13, 13, 41);
+  color: rgb(110, 140, 167);
 }
 
 main {
@@ -71,6 +71,17 @@ main div .ul-main {
 main div .marcas {
   display: block;
   margin: auto;
+}
+main h2 {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+main li {
+  font-size: 1rem;
+  list-style: none;
+}
+main li strong {
+  text-decoration: underline;
 }
 
 /* Footer */
@@ -141,12 +152,14 @@ h1 {
   grid-template-columns: repeat(3, 200px);
   grid-template-areas: "portafolio1 portafolio1 portafolio3" "portafolio1 portafolio1 portafolio2" "portafolio4 portafolio5 portafolio6";
   width: 100%;
+  height: 100%;
   justify-content: center;
   align-content: center;
   gap: 10px 10px;
 }
 .grilla div {
   position: relative;
+  overflow: hidden;
 }
 .grilla div:after {
   content: "";
@@ -162,12 +175,19 @@ h1 {
   width: 100%;
   object-fit: cover;
   height: 100%;
+  border: 2px solid black;
+  border-radius: 15px;
+  transition: transform 3s;
+  transition-delay: 1s;
 }
 .grilla div:hover {
+  transform: scale(1.07);
   cursor: pointer;
 }
 .grilla div:hover:after {
   opacity: 1;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
 }
 .grilla .caja1 {
   grid-area: portafolio1;
@@ -220,6 +240,14 @@ h1 {
     grid-template-columns: repeat(1, 200px);
     grid-template-areas: "portafolio1" "portafolio2" "portafolio3" "portafolio4" "portafolio5" "portafolio6";
   }
+}
+.main-arreglos section div div div img {
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: transform 1.5s;
+}
+.main-arreglos section div div div img:hover {
+  transform: scale(1.07);
 }
 
 /*# sourceMappingURL=style.css.map */
