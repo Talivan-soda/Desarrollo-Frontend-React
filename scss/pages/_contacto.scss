@@ -1,9 +1,12 @@
+@use '../base/variables' as variable;
+
+
 /* Página Contacto */
 .main-contacto{
     text-align: center;
     .logo-contacto{
-        height: 300px;
-        width: 300px;
+        height: variable.$relleno;
+        width: variable.$relleno;
         border: 2px solid black;
         border-radius: 20px;
     }

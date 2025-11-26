@@ -1,23 +1,19 @@
+@use '../base/variables' as variable;
+@use '../utilities/extend';
+@use '../utilities/mixin';
 /* Main */
 main{
-    .container{
-        display: block;
-        align-items: center;
-        text-align: center;
-    }
+    @extend %block-center;
     div {
-        h1{ 
-            color: rgb(195, 195, 218);
-            text-decoration: underline;
-            }
-        h3{ 
-            color: rgb(195, 195, 218);
-            text-decoration: underline;
-            }
-        } 
+        h1{
+        @include mixin.encabezado(whitesmoke,underline);
+        }
+        h3{
+        @include mixin.encabezado(whitesmoke,underline)
+        }
     .logo-main{ 
-        height: 300px;
-        width: 300px;
+        height: variable.$relleno;
+        width: variable.$relleno;
         border: 2px solid black;
         border-radius: 20px;
     }
@@ -29,4 +25,5 @@ main{
         display: block;
         margin: auto;
     }
+}
 }

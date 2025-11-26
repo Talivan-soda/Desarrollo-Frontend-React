@@ -1,0 +1,4 @@
+@mixin encabezado($color,$decoracion){
+    color: $color;
+    text-decoration: $decoracion;
+}

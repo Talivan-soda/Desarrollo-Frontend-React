@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Barra de navegación */
+header .navbar {
+  display: flex;
+  flex-grow: inherit;
+  background-color: rgb(195, 195, 218);
+}
+header .navbar :hover {
+  color: whitesmoke;
+}
+header .navbar-collapse {
+  flex-grow: 0;
+  flex-basis: 100%;
+  align-items: center;
+}
+header .logo-nav {
+  padding-left: 15px;
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+}
+header .dropdown-menu {
+  background-color: rgb(100, 100, 255);
+}
+header .dropdown-menu:hover {
+  background-color: rgb(100, 100, 255);
+  color: aliceblue;
+}/*# sourceMappingURL=header.css.map */
