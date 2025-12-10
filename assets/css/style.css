@@ -226,6 +226,12 @@ h1 {
 .div-redes a img {
   width: 100%;
   max-width: 50px;
+  border-radius: 5px;
+}
+.div-redes a img:hover {
+  opacity: 0.6;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 /* Mediaquery */
@@ -244,10 +250,9 @@ h1 {
 .main-arreglos section div div div img {
   border: 2px solid black;
   border-radius: 20px;
-  transition: transform 1.5s;
 }
 .main-arreglos section div div div img:hover {
-  transform: scale(0.5);
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,9 +6,8 @@
                     img{
                     border: 2px solid black;
                     border-radius: 20px;
-                    transition: transform 1.5s;
                     &:hover{
-                        transform: scale(0.5);
+                        opacity: 0.8;
                         }
                     }
                 }
