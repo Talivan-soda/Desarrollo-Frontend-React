@@ -4,8 +4,7 @@
 /* Barra de navegación */
 header{
     .navbar{
-        background: linear-gradient(90deg,rgb(75, 96, 153) 0%, rgba(87, 199, 133, 1) 50%, rgb(75, 96, 153) 100%);
-        display: flex;
+        background: linear-gradient(90deg,rgb(118, 154, 255) 0%, rgb(101, 90, 255) 50%, rgb(118, 154, 255));
         flex-grow: inherit;
         background-color: map.get(mapa.$colores,color-primario);
         :hover{
@@ -24,10 +23,9 @@ header{
         border-radius: 50%;
     }
     .dropdown-menu{
-        background: linear-gradient(90deg,rgb(75, 96, 153) 0%, rgba(87, 199, 133, 1) 50%, rgb(75, 96, 153) 100%);
+        background: linear-gradient(90deg,rgb(118, 154, 255) 0%, rgb(101, 90, 255) 50%, rgb(118, 154, 255));
         &:hover{
-            background-color: rgb(13, 13, 41);
-            color: rgb(110, 140, 167);
+            background-color: rgb(117, 117, 255);
         }
     }
 }
