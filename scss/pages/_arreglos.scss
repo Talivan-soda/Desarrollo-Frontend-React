@@ -1,13 +1,17 @@
 .main-arreglos{
+    .marcas{
+        border-radius: 20px;
+    }
     section{
         div{
             div{
                 div{
                     img{
-                    border: 2px solid black;
-                    border-radius: 20px;
-                    &:hover{
-                        opacity: 0.8;
+                        border: 2px solid black;
+                        border-radius: 20px;
+                        &:hover{
+                            cursor: pointer;
+                            opacity: 0.8;
                         }
                     }
                 }

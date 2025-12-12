@@ -61,6 +61,10 @@ main div .logo-main {
   border: 2px solid black;
   border-radius: 20px;
 }
+main div .video-home {
+  border: 2px solid black;
+  border-radius: 20px;
+}
 main div .ul-main {
   font-size: 1rem;
   list-style: none;
@@ -87,6 +91,13 @@ footer {
 }
 footer h2 {
   text-decoration: underline;
+}
+footer img {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+  overflow: hidden;
 }
 footer h3 {
   text-decoration: underline;
@@ -212,6 +223,10 @@ h1 {
 }
 
 /* Página Redes */
+.main-redes .img-nombre {
+  max-width: 350px;
+  border-radius: 15px;
+}
 .main-redes {
   text-align: center;
 }
@@ -250,11 +265,15 @@ h1 {
     grid-template-areas: "portafolio1" "portafolio2" "portafolio3" "portafolio4" "portafolio5" "portafolio6";
   }
 }
+.main-arreglos .marcas {
+  border-radius: 20px;
+}
 .main-arreglos section div div div img {
   border: 2px solid black;
   border-radius: 20px;
 }
 .main-arreglos section div div div img:hover {
+  cursor: pointer;
   opacity: 0.8;
 }
 
