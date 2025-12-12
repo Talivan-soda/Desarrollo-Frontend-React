@@ -1,9 +1,17 @@
+@use '../base/variables' as variable;
 /* Footer */
 footer{
     text-align: center;
     h2{
         text-decoration: underline;
         }
+    img{
+        height: variable.$relleno;
+        width: variable.$relleno;
+        border: 2px solid black;
+        border-radius: 20px;
+        overflow: hidden;
+    }
     h3{
         text-decoration: underline;
         }

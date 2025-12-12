@@ -1,9 +1,13 @@
 /* Página Redes */
 .main-redes{
-        text-align: center;
-        h1{
-            text-decoration: underline;
-        }
+    .img-nombre{
+        max-width: 350px;
+        border-radius: 15px;
+    }
+    text-align: center;
+    h1{
+        text-decoration: underline;
+    }
     }
     .div-redes {
         display: flex;
