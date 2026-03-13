@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 1,
+        "imagen": "../assets/img/convertidor1.webp",
+        "nombre": "Convertidor FHD - AndroidTV",
+        "precio": 60000
+    },
+    {
+        "id": 2,
+        "imagen": "../assets/img/convertidor2.webp",
+        "nombre": "Convertidor 4K - AndroidTV",
+        "precio": 80000
+    },
+    {
+        "id": 3,
+        "imagen": "../assets/img/controles.webp",
+        "nombre": "Control remoto universal",
+        "precio": 15000
+    },
+    {
+        "id": 4,
+        "imagen": "../assets/img/soporte.webp",
+        "nombre": "Soporte de pared articulado 22 a 65 pulgadas",
+        "precio": 25000
+    },
+    {
+        "id": 5,
+        "imagen": "../assets/img/camaras.webp",
+        "nombre": "Combo cámaras x4 FHD + DVR x8",
+        "precio": 350000
+    },
+    {
+        "id": 6,
+        "imagen": "../assets/img/alarma.webp",
+        "nombre": "Sistema de alarma - 2 sensores movimiento + 2 de apertura",
+        "precio": 300000
+    }
+]

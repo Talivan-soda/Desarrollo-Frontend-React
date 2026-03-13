@@ -1,5 +1,17 @@
 /* Página productos */
-
+header button{
+    background-color: transparent;
+    border: 3px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    &:hover{
+        background-color: rgb(148, 147, 147);
+        color: white;
+        cursor: pointer;
+    }
+}
 h1{
     text-decoration: underline;
     text-align: center;
